@@ -1,0 +1,61 @@
+.confirm-dialog {
+  width: 692px;
+  max-height: 100vh;
+  max-width: 100vw;
+  background-color: #ededed;
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  border-radius: 8px;
+}
+
+.confirm-dialog .first-row {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 18px;
+  justify-content: space-between;
+}
+
+.confirm-dialog .row {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 18px;
+  justify-content: space-between;
+}
+
+.confirm-dialog .title {
+  flex-grow: 2;
+  max-width: 102px;
+  font-weight: bold;
+}
+
+.confirm-dialog .value {
+  padding-left: 10px;
+  flex-grow: 8;
+}
+
+.confirm-dialog .value textarea {
+  height: 165px;
+  min-height: 165px;
+  width: 98%;
+  resize: none;
+  padding: 8px;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
+}
+
+.value > div {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.row .confirm-btn {
+  background-color: #0076ff;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+}
