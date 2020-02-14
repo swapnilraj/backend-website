@@ -61,7 +61,7 @@ const App = () => {
       <Header></Header>
       <main>
         {error && <div>Error</div>}
-        {loading && <div>Loading....</div>}
+        {loading && <LoadingDialog prompt="Loading..." />}
         {!loading && !error && (
           <AnnouncementForm
             showConfirmationPopup={showConfirmationPopup}
@@ -70,7 +70,7 @@ const App = () => {
         )}
         <Popup open={showPopup}>
           {publishing ? (
-            <LoadingDialog />
+            <LoadingDialog prompt="Publishing..." />
           ) : (
             <ConfirmationDialog
               values={values}
@@ -82,7 +82,6 @@ const App = () => {
         <Toast prompt={promptValue}></Toast>
       </main>
     </>
-    // </FirebaseContext.Provider>
   );
 };
 
