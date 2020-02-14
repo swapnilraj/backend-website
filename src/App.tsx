@@ -10,6 +10,7 @@ import { Popup } from "./Popup";
 import { AnnouncementForm } from "./AnnouncementForm";
 import { LoadingDialog } from "./LoadingDialog";
 import { ConfirmationDialog } from "./ConfirmationDialog";
+import { useDBRef } from "./store/firebase";
 
 const App = () => {
   const [showPopup, setPopupVisible] = React.useState(false);
@@ -26,28 +27,41 @@ const App = () => {
 
   const [publishing, setPublishing] = React.useState(false);
 
-  const onConfirm = React.useCallback(
-    async (values: IPublishState) => {
-      setPublishing(true);
-      await sleep(1000, null);
-      setPublishing(false);
-      return Promise.resolve();
-    },
-    [setPublishing]
-  );
+  const [messagesRef, loading, error] = useDBRef("messages");
 
   const onClose = React.useCallback(() => setPopupVisible(false), [
     setPopupVisible
   ]);
 
+  const onConfirm = React.useCallback(
+    async (values: IPublishState) => {
+      setPublishing(true);
+      try {
+        await messagesRef?.ref.push(values);
+      } catch (err) {
+        console.error("Could not record message!", err);
+      } finally {
+        setPublishing(false);
+        onClose();
+      }
+    },
+    [setPublishing, messagesRef, onClose]
+  );
+
+  if (error) console.error(error);
+
   return (
     <>
       <Header></Header>
       <main>
-        <AnnouncementForm
-          showConfirmationPopup={showConfirmationPopup}
-          initialValues={initialPublish}
-        />
+        {error && <div>Error</div>}
+        {loading && <div>Loading....</div>}
+        {!loading && !error && (
+          <AnnouncementForm
+            showConfirmationPopup={showConfirmationPopup}
+            initialValues={initialPublish}
+          />
+        )}
         <Popup open={showPopup}>
           {publishing ? (
             <LoadingDialog />
@@ -61,10 +75,8 @@ const App = () => {
         </Popup>
       </main>
     </>
+    // </FirebaseContext.Provider>
   );
 };
-
-const sleep = (time: number, value: any) =>
-  new Promise(resolve => setTimeout(resolve, time, value));
 
 export default App;
