@@ -11,6 +11,7 @@ import { AnnouncementForm } from "./AnnouncementForm";
 import { LoadingDialog } from "./LoadingDialog";
 import { ConfirmationDialog } from "./ConfirmationDialog";
 import { useDBRef } from "./store/firebase";
+import { Toast } from "./Toast";
 
 const App = () => {
   const [showPopup, setPopupVisible] = React.useState(false);
@@ -29,26 +30,31 @@ const App = () => {
 
   const [messagesRef, loading, error] = useDBRef("messages");
 
+  if (error) console.error(error);
+
   const onClose = React.useCallback(() => setPopupVisible(false), [
     setPopupVisible
   ]);
+
+  const [promptValue, setPrompt] = React.useState<string | null>(null);
 
   const onConfirm = React.useCallback(
     async (values: IPublishState) => {
       setPublishing(true);
       try {
-        await messagesRef?.ref.push(values);
+        const message = { ...values, timestamp: new Date().toString() };
+        await messagesRef?.ref.push(message);
+        setPrompt("Announcement successfully published");
       } catch (err) {
         console.error("Could not record message!", err);
+        setPrompt("Announcement failed to publish");
       } finally {
         setPublishing(false);
         onClose();
       }
     },
-    [setPublishing, messagesRef, onClose]
+    [setPublishing, messagesRef, onClose, setPrompt]
   );
-
-  if (error) console.error(error);
 
   return (
     <>
@@ -73,6 +79,7 @@ const App = () => {
             />
           )}
         </Popup>
+        <Toast prompt={promptValue}></Toast>
       </main>
     </>
     // </FirebaseContext.Provider>
