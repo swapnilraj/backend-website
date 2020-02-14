@@ -11,7 +11,7 @@ form {
   margin-bottom: 10px;
 }
 
-.field:first-of-type {
+textarea.field:first-of-type {
   height: 220px;
 }
 
