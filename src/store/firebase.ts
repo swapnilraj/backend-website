@@ -2,6 +2,8 @@ import React from "react";
 
 import firebase from "firebase/app";
 import "firebase/database";
+import "firebase/auth";
+
 import { IPublishState } from "./publish";
 
 import { useObject } from "react-firebase-hooks/database";
@@ -32,6 +34,11 @@ const useDatabase = () => {
   return fb.database();
 };
 
+export const useAuth = () => {
+  const fb = React.useContext(FirebaseContext);
+  if (!fb) throw Error(`Firebase hasn't been initialized`);
+  return fb.auth();
+};
 export const useDBRef = (ref: keyof Entities) => {
   const db = useDatabase();
   return useObject(db.ref(ref));
