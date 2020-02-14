@@ -46,14 +46,14 @@ export const ConfirmationDialog = ({
       <div className="row">
         <div className="title">Type</div>
         <div className="value">
-          <div>{values.messageType}</div>
+          <div>{values.type}</div>
         </div>
       </div>
 
       <div className="row">
         <div className="title">Location</div>
         <div className="value">
-          <div>{values.messageLocation}</div>
+          <div>{values.location}</div>
         </div>
       </div>
 

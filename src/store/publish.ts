@@ -1,11 +1,11 @@
 export interface IPublishState {
   message: string;
-  messageType: string;
-  messageLocation: string;
+  type: string;
+  location: string;
 }
 
 export const initialPublish: IPublishState = {
   message: "",
-  messageType: "option1",
-  messageLocation: "option2"
+  type: "option1",
+  location: "option2"
 };
