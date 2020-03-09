@@ -41,7 +41,10 @@ export const AnnouncementForm = ({
   showConfirmationPopup: (values: IPublishState) => Promise<boolean>;
 }) => {
   const onMessageSubmit = React.useCallback(
-    async (values, { setSubmitting }) => {
+    async (values: IPublishState, { setSubmitting }) => {
+      values.latitude = stations[values.location].latitude;
+      values.longitude = stations[values.location].longitude;
+
       await showConfirmationPopup(values);
       setSubmitting(false);
     },

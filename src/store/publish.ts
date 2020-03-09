@@ -18,7 +18,12 @@ export const initialPublish: IPublishState = {
 
 console.log(stationsFile);
 
-export const stations = stationsFile;
+export const stations: {
+  [station: string]: {
+    longitude: string;
+    latitude: string;
+  };
+} = stationsFile as any;
 
 export const stationNames = Object.keys(stations);
 
