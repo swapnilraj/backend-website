@@ -1,7 +1,12 @@
 import React from "react";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 
-import { IPublishState } from "../store/publish";
+import {
+  IPublishState,
+  stationNames,
+  stations,
+  messageType
+} from "../store/publish";
 
 import "./AnnouncementForm.css";
 
@@ -18,6 +23,15 @@ const validteInput = (values: IPublishState) => {
 
   return errors;
 };
+
+const messageTypeOptions: Array<JSX.Element> = messageType.map(msg => (
+  <option value={msg}>{msg}</option>
+));
+
+const locationOptions: Array<JSX.Element> = stationNames.map(msg => {
+  console.log(msg);
+  return <option value={msg}>{msg}</option>;
+});
 
 export const AnnouncementForm = ({
   initialValues,
@@ -43,28 +57,26 @@ export const AnnouncementForm = ({
       <Form>
         <div className="field">
           <label htmlFor="message">Message</label>
-          <Field name="message" as="textarea" placeholder="Enter message" />
-          <ErrorMessage name="message" component="div" />
+          <span>
+            <Field name="message" as="textarea" placeholder="Enter message" />
+            <ErrorMessage name="message" component="div" />
+          </span>
         </div>
 
         <div className="field">
-          <label htmlFor="messageType">Type</label>
-          <Field name="messageType" as="select">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+          <label htmlFor="type">Type</label>
+          <Field name="type" as="select">
+            {messageTypeOptions}
           </Field>
-          <ErrorMessage name="messageType" />
+          <ErrorMessage name="type" />
         </div>
 
         <div className="field">
-          <label htmlFor="messageLocation">Location</label>
-          <Field name="messageLocation" as="select">
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
+          <label htmlFor="location">Location</label>
+          <Field name="location" as="select">
+            {locationOptions}
           </Field>
-          <ErrorMessage name="messageLocation" />
+          <ErrorMessage name="location" />
         </div>
 
         <button type="submit" className="publish-btn">

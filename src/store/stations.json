@@ -1,0 +1,598 @@
+{
+  "Adamstown": {
+    "lattitude": "53.335941314697301",
+    "longitude": "-6.4692311286926296"
+  },
+  "Ardrahan": {
+    "lattitude": "53.157176971435497",
+    "longitude": "-8.8148307800293004"
+  },
+  "Arklow": {
+    "lattitude": "52.793914794921903",
+    "longitude": "-6.1597552299499503"
+  },
+  "Ashtown": {
+    "lattitude": "53.375518798828097",
+    "longitude": "-6.3313503265380904"
+  },
+  "Athenry": {
+    "lattitude": "53.301326751708999",
+    "longitude": "-8.7489356994628906"
+  },
+  "Athlone": {
+    "lattitude": "53.426853179931598",
+    "longitude": "-7.9356660842895499"
+  },
+  "Athy": {
+    "lattitude": "52.9924125671387",
+    "longitude": "-6.9767751693725604"
+  },
+  "Attymon": {
+    "lattitude": "53.321205139160199",
+    "longitude": "-8.60607814788818"
+  },
+  "Balbriggan": {
+    "lattitude": "53.611824035644503",
+    "longitude": "-6.1823639869689897"
+  },
+  "Ballina": {
+    "lattitude": "54.109035491943402",
+    "longitude": "-9.1608572006225604"
+  },
+  "Ballinasloe": {
+    "lattitude": "53.336002349853501",
+    "longitude": "-8.2408857345581108"
+  },
+  "Ballybrophy": {
+    "lattitude": "52.899898529052699",
+    "longitude": "-7.6025929450988796"
+  },
+  "Ballyhaunis": {
+    "lattitude": "53.761581420898402",
+    "longitude": "-8.7584037780761701"
+  },
+  "Ballymote": {
+    "lattitude": "54.088668823242202",
+    "longitude": "-8.5208845138549805"
+  },
+  "Banteer": {
+    "lattitude": "52.128730773925803",
+    "longitude": "-8.8979320526122994"
+  },
+  "Bayside": {
+    "lattitude": "53.3913383483887",
+    "longitude": "-6.1370091438293501"
+  },
+  "Belfast Lanyon Place": {
+    "lattitude": "54.595237731933601",
+    "longitude": "-5.9171447753906303"
+  },
+  "Birdhill": {
+    "lattitude": "52.765571594238303",
+    "longitude": "-8.4424743652343803"
+  },
+  "Blackrock": {
+    "lattitude": "53.302680969238303",
+    "longitude": "-6.1783328056335396"
+  },
+  "Booterstown": {
+    "lattitude": "53.309921264648402",
+    "longitude": "-6.1949801445007298"
+  },
+  "Boyle": {
+    "lattitude": "53.967594146728501",
+    "longitude": "-8.30438232421875"
+  },
+  "Bray (Daly)": {
+    "lattitude": "53.2044677734375",
+    "longitude": "-6.10086917877197"
+  },
+  "Broombridge": {
+    "lattitude": "53.372505187988303",
+    "longitude": "-6.2986893653869602"
+  },
+  "Cahir": {
+    "lattitude": "52.377834320068402",
+    "longitude": "-7.92258977890015"
+  },
+  "Carlow": {
+    "lattitude": "52.840713500976598",
+    "longitude": "-6.9221653938293501"
+  },
+  "Carrick-on-Shannon": {
+    "lattitude": "53.938346862792997",
+    "longitude": "-8.1065654754638707"
+  },
+  "Carrick-on-Suir": {
+    "lattitude": "52.3490600585938",
+    "longitude": "-7.4045329093933097"
+  },
+  "Carrigaloe": {
+    "lattitude": "51.868747711181598",
+    "longitude": "-8.3243408203125"
+  },
+  "Carrigtwohill": {
+    "lattitude": "51.916336059570298",
+    "longitude": "-8.26330471038818"
+  },
+  "Castlebar": {
+    "lattitude": "53.847057342529297",
+    "longitude": "-9.2873001098632795"
+  },
+  "Castleconnell": {
+    "lattitude": "52.713047027587898",
+    "longitude": "-8.4978303909301793"
+  },
+  "Castleknock": {
+    "lattitude": "53.381576538085902",
+    "longitude": "-6.3714919090270996"
+  },
+  "Castlerea": {
+    "lattitude": "53.761501312255902",
+    "longitude": "-8.4857101440429705"
+  },
+  "Charleville": {
+    "lattitude": "52.346832275390597",
+    "longitude": "-8.65362453460693"
+  },
+  "Clara": {
+    "lattitude": "53.339527130127003",
+    "longitude": "-7.6159601211547896"
+  },
+  "Claremorris": {
+    "lattitude": "53.720386505127003",
+    "longitude": "-9.0022239685058594"
+  },
+  "Clondalkin Fonthill": {
+    "lattitude": "53.333370208740199",
+    "longitude": "-6.4062786102294904"
+  },
+  "Clongriffin": {
+    "lattitude": "53.402683258056598",
+    "longitude": "-6.1489500999450701"
+  },
+  "Clonmel": {
+    "lattitude": "52.361099243164098",
+    "longitude": "-7.6993565559387198"
+  },
+  "Clonsilla": {
+    "lattitude": "53.383121490478501",
+    "longitude": "-6.4241967201232901"
+  },
+  "Clontarf Road": {
+    "lattitude": "53.362880706787102",
+    "longitude": "-6.2275342941284197"
+  },
+  "Cloughjordan": {
+    "lattitude": "52.936435699462898",
+    "longitude": "-8.0245113372802699"
+  },
+  "Cobh": {
+    "lattitude": "51.8487358093262",
+    "longitude": "-8.3007507324218803"
+  },
+  "Collooney": {
+    "lattitude": "54.1871147155762",
+    "longitude": "-8.4945306777954102"
+  },
+  "Coolmine": {
+    "lattitude": "53.377605438232401",
+    "longitude": "-6.3907170295715297"
+  },
+  "Cork (Kent)": {
+    "lattitude": "51.901790618896499",
+    "longitude": "-8.4582004547119105"
+  },
+  "Craughwell": {
+    "lattitude": "53.225559234619098",
+    "longitude": "-8.7359695434570295"
+  },
+  "Dalkey": {
+    "lattitude": "53.275642395019503",
+    "longitude": "-6.1033267974853498"
+  },
+  "Docklands": {
+    "lattitude": "53.350875854492202",
+    "longitude": "-6.2392859458923304"
+  },
+  "Donabate": {
+    "lattitude": "53.485507965087898",
+    "longitude": "-6.1513438224792498"
+  },
+  "Drogheda (MacBride)": {
+    "lattitude": "53.712020874023402",
+    "longitude": "-6.3353791236877397"
+  },
+  "Dromod": {
+    "lattitude": "53.859134674072301",
+    "longitude": "-7.9164004325866699"
+  },
+  "Drumcondra": {
+    "lattitude": "53.363109588622997",
+    "longitude": "-6.25860500335693"
+  },
+  "Dublin Connolly": {
+    "lattitude": "53.353103637695298",
+    "longitude": "-6.2459001541137704"
+  },
+  "Dublin Heuston": {
+    "lattitude": "53.346427917480497",
+    "longitude": "-6.2946076393127397"
+  },
+  "Dublin Pearse": {
+    "lattitude": "53.343315124511697",
+    "longitude": "-6.24829196929932"
+  },
+  "Dun Laoghaire (Mallin)": {
+    "lattitude": "53.295059204101598",
+    "longitude": "-6.1349759101867702"
+  },
+  "Dunboyne": {
+    "lattitude": "53.41748046875",
+    "longitude": "-6.4648342132568404"
+  },
+  "Dundalk (Clarke)": {
+    "lattitude": "54.000652313232401",
+    "longitude": "-6.4129109382629403"
+  },
+  "Edgeworthstown": {
+    "lattitude": "53.688766479492202",
+    "longitude": "-7.6029944419860804"
+  },
+  "Enfield": {
+    "lattitude": "53.415740966796903",
+    "longitude": "-6.83394527435303"
+  },
+  "Ennis": {
+    "lattitude": "52.839313507080099",
+    "longitude": "-8.9752597808837908"
+  },
+  "Enniscorthy": {
+    "lattitude": "52.504642486572301",
+    "longitude": "-6.5662736892700204"
+  },
+  "Farranfore": {
+    "lattitude": "52.1737670898438",
+    "longitude": "-9.5522336959838903"
+  },
+  "Fota": {
+    "lattitude": "51.896034240722699",
+    "longitude": "-8.3183012008666992"
+  },
+  "Foxford": {
+    "lattitude": "53.983024597167997",
+    "longitude": "-9.1364021301269496"
+  },
+  "Galway (Ceannt)": {
+    "lattitude": "53.273616790771499",
+    "longitude": "-9.0469627380371094"
+  },
+  "Glenageary": {
+    "lattitude": "53.281196594238303",
+    "longitude": "-6.1228933334350604"
+  },
+  "Glounthaune": {
+    "lattitude": "51.9112358093262",
+    "longitude": "-8.3254003524780291"
+  },
+  "Gorey": {
+    "lattitude": "52.671165466308601",
+    "longitude": "-6.2919511795043901"
+  },
+  "Gormanston": {
+    "lattitude": "53.637954711914098",
+    "longitude": "-6.2170453071594203"
+  },
+  "Gort": {
+    "lattitude": "53.067161560058601",
+    "longitude": "-8.8139533996581996"
+  },
+  "Grand Canal Dock": {
+    "lattitude": "53.339725494384801",
+    "longitude": "-6.23773193359375"
+  },
+  "Greystones": {
+    "lattitude": "53.144203186035199",
+    "longitude": "-6.0608549118042001"
+  },
+  "Hansfield": {
+    "lattitude": "53.386875152587898",
+    "longitude": "-6.4437890052795401"
+  },
+  "Harmonstown": {
+    "lattitude": "53.3786430358887",
+    "longitude": "-6.1913104057312003"
+  },
+  "Hazelhatch and Celbridge": {
+    "lattitude": "53.322265625",
+    "longitude": "-6.5235576629638699"
+  },
+  "Howth": {
+    "lattitude": "53.389053344726598",
+    "longitude": "-6.07401418685913"
+  },
+  "Howth Junction and Donaghmede": {
+    "lattitude": "53.391311645507798",
+    "longitude": "-6.15594577789307"
+  },
+  "Kilbarrack": {
+    "lattitude": "53.386989593505902",
+    "longitude": "-6.1616349220275897"
+  },
+  "Kilcock": {
+    "lattitude": "53.399036407470703",
+    "longitude": "-6.6688194274902299"
+  },
+  "Kilcoole": {
+    "lattitude": "53.106971740722699",
+    "longitude": "-6.0411205291748002"
+  },
+  "Kildare": {
+    "lattitude": "53.162975311279297",
+    "longitude": "-6.9080152511596697"
+  },
+  "Kilkenny (MacDonagh)": {
+    "lattitude": "52.654415130615199",
+    "longitude": "-7.24355220794678"
+  },
+  "Killarney": {
+    "lattitude": "52.0594673156738",
+    "longitude": "-9.5019769668579102"
+  },
+  "Killester": {
+    "lattitude": "53.373023986816399",
+    "longitude": "-6.2044196128845197"
+  },
+  "Killiney": {
+    "lattitude": "53.255710601806598",
+    "longitude": "-6.1131668090820304"
+  },
+  "Lansdowne Road": {
+    "lattitude": "53.195360000000001",
+    "longitude": "-6.1403699999999999"
+  },
+  "Laytown": {
+    "lattitude": "53.679359436035199",
+    "longitude": "-6.2425255775451696"
+  },
+  "Leixlip (Confey)": {
+    "lattitude": "53.374267578125",
+    "longitude": "-6.4862380027770996"
+  },
+  "Leixlip (Louisa Bridge)": {
+    "lattitude": "53.370349884033203",
+    "longitude": "-6.5059833526611301"
+  },
+  "Limerick (Colbert)": {
+    "lattitude": "52.658664703369098",
+    "longitude": "-8.6239662170410192"
+  },
+  "Limerick Junction": {
+    "lattitude": "52.500633239746101",
+    "longitude": "-8.2006931304931605"
+  },
+  "Lisburn": {
+    "lattitude": "54.513919830322301",
+    "longitude": "-6.0457739830017099"
+  },
+  "Little Island": {
+    "lattitude": "51.9077758789063",
+    "longitude": "-8.3546600341796893"
+  },
+  "Longford": {
+    "lattitude": "53.724266052246101",
+    "longitude": "-7.7957353591918901"
+  },
+  "Lurgan": {
+    "lattitude": "54.4675483703613",
+    "longitude": "-6.3371047973632804"
+  },
+  "M3 Parkway": {
+    "lattitude": "53.434867858886697",
+    "longitude": "-6.4689774513244602"
+  },
+  "Malahide": {
+    "lattitude": "53.4509468078613",
+    "longitude": "-6.1564869880676296"
+  },
+  "Mallow": {
+    "lattitude": "52.139617919921903",
+    "longitude": "-8.6552057266235405"
+  },
+  "Manulla Junction": {
+    "lattitude": "53.827976226806598",
+    "longitude": "-9.1929559707641602"
+  },
+  "Maynooth": {
+    "lattitude": "53.378047943115199",
+    "longitude": "-6.5899329185485804"
+  },
+  "Midleton": {
+    "lattitude": "51.921192169189503",
+    "longitude": "-8.1755390167236293"
+  },
+  "Millstreet": {
+    "lattitude": "52.077571868896499",
+    "longitude": "-9.0697336196899396"
+  },
+  "Monasterevin": {
+    "lattitude": "53.145381927490199",
+    "longitude": "-7.0636134147643999"
+  },
+  "Muine Bheag (Bagenalstown)": {
+    "lattitude": "52.699031829833999",
+    "longitude": "-6.9521284103393599"
+  },
+  "Mullingar": {
+    "lattitude": "53.523033142089801",
+    "longitude": "-7.3460822105407697"
+  },
+  "Navan Road Parkway": {
+    "lattitude": "53.377708435058601",
+    "longitude": "-6.3459138870239302"
+  },
+  "Nenagh": {
+    "lattitude": "52.860462188720703",
+    "longitude": "-8.1947078704834002"
+  },
+  "Newbridge": {
+    "lattitude": "53.185550689697301",
+    "longitude": "-6.80806684494019"
+  },
+  "Newry": {
+    "lattitude": "54.188621520996101",
+    "longitude": "-6.3625431060790998"
+  },
+  "Oranmore": {
+    "lattitude": "53.2754516601563",
+    "longitude": "-8.9476404190063494"
+  },
+  "Park West and Cherry Orchard": {
+    "lattitude": "53.333984375",
+    "longitude": "-6.3786783218383798"
+  },
+  "Portadown": {
+    "lattitude": "54.424121856689503",
+    "longitude": "-6.4467859268188503"
+  },
+  "Portarlington": {
+    "lattitude": "53.1459350585938",
+    "longitude": "-7.1812176704406703"
+  },
+  "Portlaoise": {
+    "lattitude": "53.037120819091797",
+    "longitude": "-7.30086374282837"
+  },
+  "Portmarnock": {
+    "lattitude": "53.417652130127003",
+    "longitude": "-6.1513137817382804"
+  },
+  "Raheny": {
+    "lattitude": "53.381523132324197",
+    "longitude": "-6.1769914627075204"
+  },
+  "Rathdrum": {
+    "lattitude": "52.929817199707003",
+    "longitude": "-6.2263083457946804"
+  },
+  "Rathmore": {
+    "lattitude": "52.085380554199197",
+    "longitude": "-9.2175645828247106"
+  },
+  "Roscommon": {
+    "lattitude": "53.624347686767599",
+    "longitude": "-8.1963119506835902"
+  },
+  "Roscrea": {
+    "lattitude": "52.960704803466797",
+    "longitude": "-7.7940983772277797"
+  },
+  "Rosslare Europort": {
+    "lattitude": "52.251213073730497",
+    "longitude": "-6.3376417160034197"
+  },
+  "Rosslare Strand": {
+    "lattitude": "52.272605895996101",
+    "longitude": "-6.3925375938415501"
+  },
+  "Rush and Lusk": {
+    "lattitude": "53.520084381103501",
+    "longitude": "-6.1438980102539098"
+  },
+  "Rushbrooke": {
+    "lattitude": "51.849567413330099",
+    "longitude": "-8.3225221633911097"
+  },
+  "Sallins and Naas": {
+    "lattitude": "53.246936798095703",
+    "longitude": "-6.6646409034729004"
+  },
+  "Salthill and Monkstown": {
+    "lattitude": "53.295356750488303",
+    "longitude": "-6.1520586013793901"
+  },
+  "Sandycove and Glasthule": {
+    "lattitude": "53.287830352783203",
+    "longitude": "-6.1271162033081099"
+  },
+  "Sandymount": {
+    "lattitude": "53.328083038330099",
+    "longitude": "-6.2211632728576696"
+  },
+  "Seapoint": {
+    "lattitude": "53.299129486083999",
+    "longitude": "-6.1651201248168901"
+  },
+  "Shankill": {
+    "lattitude": "53.236354827880902",
+    "longitude": "-6.1169085502624503"
+  },
+  "Sixmilebridge": {
+    "lattitude": "52.737888336181598",
+    "longitude": "-8.7843475341796893"
+  },
+  "Skerries": {
+    "lattitude": "53.574127197265597",
+    "longitude": "-6.1193327903747603"
+  },
+  "Sligo (MacDiarmada)": {
+    "lattitude": "54.272270202636697",
+    "longitude": "-8.4824895858764595"
+  },
+  "Sutton": {
+    "lattitude": "53.391933441162102",
+    "longitude": "-6.1160697937011701"
+  },
+  "Sydney Parade": {
+    "lattitude": "53.320613861083999",
+    "longitude": "-6.2111239433288601"
+  },
+  "Tara Street": {
+    "lattitude": "53.347015380859403",
+    "longitude": "-6.2542490959167498"
+  },
+  "Templemore": {
+    "lattitude": "52.787834167480497",
+    "longitude": "-7.8229308128356898"
+  },
+  "Thomastown": {
+    "lattitude": "52.523048400878899",
+    "longitude": "-7.1489124298095703"
+  },
+  "Thurles": {
+    "lattitude": "52.676624298095703",
+    "longitude": "-7.8218932151794398"
+  },
+  "Tipperary": {
+    "lattitude": "52.470096588134801",
+    "longitude": "-8.1625013351440394"
+  },
+  "Tralee (Casement)": {
+    "lattitude": "52.271026611328097",
+    "longitude": "-9.6984558105468803"
+  },
+  "Tullamore": {
+    "lattitude": "53.270389556884801",
+    "longitude": "-7.4998512268066397"
+  },
+  "Waterford (Plunkett)": {
+    "lattitude": "52.266677856445298",
+    "longitude": "-7.1183032989501998"
+  },
+  "Westport": {
+    "lattitude": "53.796096801757798",
+    "longitude": "-9.5098743438720703"
+  },
+  "Wexford (O Hanrahan)": {
+    "lattitude": "52.3437309265137",
+    "longitude": "-6.46431684494019"
+  },
+  "Wicklow": {
+    "lattitude": "52.988201141357401",
+    "longitude": "-6.0533823966979998"
+  },
+  "Woodlawn": {
+    "lattitude": "53.343067169189503",
+    "longitude": "-8.4716320037841797"
+  }
+}
