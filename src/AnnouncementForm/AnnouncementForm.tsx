@@ -28,10 +28,9 @@ const messageTypeOptions: Array<JSX.Element> = messageType.map(msg => (
   <option value={msg}>{msg}</option>
 ));
 
-const locationOptions: Array<JSX.Element> = stationNames.map(msg => {
-  console.log(msg);
-  return <option value={msg}>{msg}</option>;
-});
+const locationOptions: Array<JSX.Element> = stationNames.map(msg => (
+  <option value={msg}>{msg}</option>
+));
 
 export const AnnouncementForm = ({
   initialValues,
