@@ -29,8 +29,11 @@ export const stationNames = Object.keys(stations);
 
 export const messageType = [
   "Delayed",
+  "Detour",
   "Cancelled",
+  "Train Switch",
   "Arriving",
   "Reduced Capacity",
-  "Diversion"
+  "Diversion",
+  "Other"
 ];
